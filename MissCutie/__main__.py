@@ -84,7 +84,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
+I am LUCIFER telegram group management bot. I'm here to help you to manage your groups.
 I have lots of handy features such as:
 ‣ Warning system
 ‣ Artificial intelligence
@@ -189,7 +189,7 @@ def start(update: Update, context: CallbackContext):
         text = (
             f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\n\n"
             f"┏━━━━━━━━━━━━━━\n"
-            f"┣[• Owner : @{OWNER_USERNAME}  \n"
+            f"┣[• Owner : @{LORD_LUCIFER_1}  \n"
             f"┣[• Uptime : {uptime} \n"
             f"┣[• Core : {psutil.cpu_percent()}%\n"
             f"┣[• Python   : Ver {python_version()} \n"
@@ -203,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                     url=f"https://t.me/{SUPPORT_CHAT}"),
                 InlineKeyboardButton(
                     text="DEVELOPER", 
-                    url=f"https://t.me/PrinceXofficial")
+                    url=f"https://t.me/LORD_LUCIFER_1")
 
             ],
 
@@ -226,13 +226,13 @@ def misscutie_about_callback(update: Update, context: CallbackContext):
     if query.data == "misscutie_":
         query.message.edit_text(
             text="""Hello *{}*, I'm *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
-            \n ‣ I can Restrict Users.
-            \n ‣ I can Greet Users with customizable welcome message and even set a group rules
-            \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
-            \n ‣ I can Warn Users until they reach max Warns, with each predefined actions such as Ban, Mute and Kick etc.
-            \n ‣ I have Note Keeping System, Blacklists, And even Predetermined replies on certain keywords.
-            \n ‣ I check Admins Permissions before perform any Command and more Stuffs.
-            \n ‣ I have an advanced Artificial Chatbot System, so can talk with users like humans.
+            \n ‣ LUCIFER can Restrict Users.
+            \n ‣ LUCIFER can Greet Users with customizable welcome message and even set a group rules
+            \n ‣ LUCIFER have an advanced Anti-Flood System which will help you to safe group from Spammmer.
+            \n ‣ LUCIFER can Warn Users until they reach max Warns, with each predefined actions such as Ban, Mute and Kick etc.
+            \n ‣ LUCIFER have Note Keeping System, Blacklists, And even Predetermined replies on certain keywords.
+            \n ‣ LUCIFER check Admins Permissions before perform any Command and more Stuffs.
+            \n ‣ LUCIFER have an advanced Artificial Chatbot System, so can talk with users like humans.
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Link Below*""".format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
             parse_mode=ParseMode.MARKDOWN,
