@@ -14,7 +14,7 @@ def can_change_info(func: Callable) -> Callable:
         check = await pbot.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "You are not admin"
+                "KITNI BAAR BOLU TUM admin NAHI HO"
             )
 
         admin = (
@@ -24,7 +24,7 @@ def can_change_info(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "`You don't have permissions to change group info."
+                "`TUMHARE PASS  permissions NAHI HAI change group info KA PAHLE LEKAR AOO."
             )
 
     return non_admin
@@ -38,7 +38,7 @@ def can_restrict(func: Callable) -> Callable:
         check = await pbot.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "You are not admin."
+                "KITNI BAAR BOLU TUM ADMIN NAHI HO ."
             )
 
         admin = (
@@ -48,7 +48,7 @@ def can_restrict(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "`You don't have permissions to restrict users in this chat."
+                " TUMAHRE PASS permissions NAHI KI TUM KISE  users KO BAN KAR SAKO in this chat."
             )
 
     return non_admin
