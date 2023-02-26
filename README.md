@@ -1,5 +1,5 @@
 <p align="center">
-𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗔𝗡𝗗 𝗔𝗡𝗜𝗠𝗘 𝗧𝗛𝗘𝗠𝗘 𝗕𝗢𝗧❤🖤
+𝗧𝗛𝗘 LUCIFER 𝗠𝗢𝗦𝗧 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗔𝗡𝗗 𝗔𝗡𝗜𝗠𝗘 𝗧𝗛𝗘𝗠𝗘 𝗕𝗢𝗧❤🖤
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 [![PTB](https://img.shields.io/badge/PTB-v13.9-blue)](https://docs.python-telegram-bot.org/)
 [![Telethon](https://img.shields.io/badge/Telethon-1.24.0-blue)](https://docs.telethon.dev/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/saifalisew1508/MissCutieRobot/graphs/commit-activity)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/saifalisew1508/MissCutieRobot)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://te.legra.ph/file/df927d1ca0aca971f472d.jpg)
 [![Contributors](https://img.shields.io/github/contributors/saifalisew1508/MissCutieRobot?style=flat-square&color=green)](https://github.com/saifalisew1508/MissCutieRobot/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)  
 [![Sparkline](https://stars.medv.io/saifalisew1508/MissCutieRobot.svg)](https://stars.medv.io/saifalisew1508/MissCutieRobot)
@@ -35,7 +35,7 @@
 </details>
 <details><summary><h3>Deploy on Heroku💳</h3></summary>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/saifalisew1508/MissCutieRobot"><img src="https://img.shields.io/badge/HEROKU-DEPLOY-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Recordu/MissCutieRobot"><img src="https://img.shields.io/badge/HEROKU-DEPLOY-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 
 </details>
